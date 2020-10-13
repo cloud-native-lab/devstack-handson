@@ -8,10 +8,12 @@ rabbitmq-server sharutils vim unzip sysfsutils python3-distutils python3-dev pyt
 
 sudo rm -rf /usr/lib/python3/dist-packages/PyYAML-*.egg-info
 sudo /usr/local/bin/pip install \
+cliff==3.1.0 \
 cryptography==2.9 \
 libvirt-python===6.1.0 \
 numpy==1.18.2 \
 os-testr==2.0.0 \
+osc-lib==2.0.0 \
 oslo.cache==2.3.0 \
 oslo.concurrency==4.0.2 \
 oslo.config==8.0.2 \
